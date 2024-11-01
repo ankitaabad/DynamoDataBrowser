@@ -130,3 +130,9 @@ dist
 .pnp.*
 
 .DS_Store
+dynamoLocal
+dynamodb-local-metadata.json
+localstack_us-east-1.db
+shared-local-instance.db
+yourAccessKeyId_local.db
+.vscode/settings.json

@@ -1,0 +1,5 @@
+
+/*.mantine-Paper {
+  background-color: white !important; 
+} */
+@layer mantine, mantine-datatable;

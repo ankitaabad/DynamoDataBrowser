@@ -1,0 +1,52 @@
+
+Todos :  
+  ☐ @bug Filter not closing with outside click 🧐
+  ☐ @low Form input field font ( works when hosted but not locally 🤔)
+  ☐ Watch Mode to show database diff 🔥
+  ☐ @low Settings validation
+  ☐ @low enable/disable refetch on tab becoming active.
+  ☐ @high json data in column, how to show.
+  ☐ Error Conditions check: Couldn't connect
+  ☐ Error Conditions check: No settings
+  ☐ @bug Add server address sometimes requires a refresh to show data table.
+  ☐ @low Checkpoint Reset  🔥
+  ☐ @low Load Test with 1000 items to check if UI remains snappy.
+  ☐ @low Multiple Connections
+  ☐ @low Table stats 🔥
+  ☐ @low when a filter is selected the table size changes and the filter position moves, Is it possible to have better user experience 😵
+  ☐ @deprecated show selected columns, (why I wrote this 🤣)
+  ☐ @bug Boolean Value column showing blank 
+  
+Done: 
+  ✔ @bug Remove  filter when column values are non primitive.
+  ✔ @bug filter with number values, right-hand side of 'in' should be an object, got number 😕
+  ✔ @low Unselect rows through context menu
+  ✔ @bug No Record Icon not showing with empty filtered result.
+  ✔ @bug table header names default formatting not needed.
+  ✔ @bug Uniquely identify rows without adding extra id field.
+  ✔ Automatic refetch when browser tab becomes active. 🔥
+  ✔ @bug Multiple filters working as OR and not as AND.
+  ✔ @bug filtered out rows columns still showing
+  ✔ Refresh TableData
+  ✔ use Global State with Jotai for tableData and localstorage instead of mantine hooks.
+  ✔ @bug Image src issue when hosting.
+  ✔ One click Filter clear. ( through context menu)
+  ✔ filter
+  ✔ deploy to ankit-ddb.vercel.app and check for CORS
+  ✔ @bug Mantine table not showing hover effect 😕
+  ✔ @bug Getting "no record" Icon even with data in Datatable
+  ✔ Dynamic fetch items from dynamo
+  ✔ Dynamic settings with localstorage  
+  ✔ Copy to clipboard with context menu [ single row and multiple rows ]
+  ✔ Localstorage to store settings form 
+
+🙅‍♂️ Not in immediate scope :   
+  ✘ Support for AWS hosted Dynamo (Currently we support only local dynamo) 
+  ✘ Allow write to DB (Just a data viewer as of now, may remain so.) 
+  ✘ Support for Multiple Tables 
+  ✘ omit filters
+  ✘ GSI view of data ( UI should be intuitive to consider this feature.😕)
+  ✘ Don't take table names and key as user input, fetch from dynamo (will help in multi table support as well) | we might get more tables than we want. 🧐
+  ✘ Explore Jotai to write idiomatic code for state management (if not already).
+  ✘ sort items by column [preferred order] tagged union use case 🧐, field should be present in all items then only makes sense. what if we make it automatic like check if a field is present in all items.
+  ✘ Add Readme file
